@@ -2,7 +2,7 @@ package com.lyofen.trundlescave;
 
 import android.os.Bundle;
 
-public class MainActivity extends AbstractActivity {
+public class ChampionsActivity extends AbstractActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -11,6 +11,6 @@ public class MainActivity extends AbstractActivity {
 
     @Override
     public int getLayoutId() {
-        return R.layout.activity_main;
+        return R.layout.activity_champions;
     }
 }
