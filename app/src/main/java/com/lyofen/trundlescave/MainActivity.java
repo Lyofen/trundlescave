@@ -42,6 +42,11 @@ public class MainActivity extends AbstractActivity
     }
 
     @Override
+    public int getContentId() {
+        return R.layout.content_main;
+    }
+
+    @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {

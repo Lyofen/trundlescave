@@ -5,4 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- ACTIVITY_MAIN_DRAWER -->
+    <string name="activity_main_">Settings</string>
 </resources>
